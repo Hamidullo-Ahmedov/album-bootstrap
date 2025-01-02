@@ -14,12 +14,6 @@ img {
   height: auto;
 }
 
-.container {
-  width: 1240px;
-  margin-inline: auto;
-  padding-inline: 20px;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -29,4 +23,60 @@ img {
   overflow: hidden;
   border: 0;
   clip: rect(0 0 0 0)
+}
+
+.hero {
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+.hero__wrapper {
+  width: 600px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.btn__group {
+  column-gap: 10px;
+  width: 350px;
+  margin-inline: auto;
+}
+
+.services__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 20px;
+}
+
+.card {
+  width: 420px;
+}
+
+.services {
+  padding-block: 120px;
+  background-color: #f8f9fa;
+}
+
+.btn-group {
+  display: flex;
+}
+
+span {
+  display: block;
+  margin-left: 240px;
+}
+
+.site-footer {
+  padding-block: 54px;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__desc {
+  width: 579px;
 }
